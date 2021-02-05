@@ -15,6 +15,9 @@
 		4822DE1525CD25860099A96C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4822DE1325CD25860099A96C /* LaunchScreen.storyboard */; };
 		4822DE2025CD25860099A96C /* SWCarouselViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822DE1F25CD25860099A96C /* SWCarouselViewControllerTests.swift */; };
 		4822DE2B25CD25860099A96C /* SWCarouselViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822DE2A25CD25860099A96C /* SWCarouselViewControllerUITests.swift */; };
+		4832C7CA25CD2A1000B4000B /* SWCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4832C7C925CD2A1000B4000B /* SWCarouselViewController.swift */; };
+		4832C7D225CD2A6600B4000B /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4832C7D125CD2A6600B4000B /* PickerView.swift */; };
+		4832C7D725CD2A7500B4000B /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4832C7D625CD2A7500B4000B /* PickerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		4822DE2625CD25860099A96C /* SWCarouselViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWCarouselViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4822DE2A25CD25860099A96C /* SWCarouselViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCarouselViewControllerUITests.swift; sourceTree = "<group>"; };
 		4822DE2C25CD25860099A96C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4832C7C925CD2A1000B4000B /* SWCarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCarouselViewController.swift; sourceTree = "<group>"; };
+		4832C7D125CD2A6600B4000B /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		4832C7D625CD2A7500B4000B /* PickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		4822DE0725CD25850099A96C /* SWCarouselViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4832C7C825CD29F400B4000B /* Sources */,
 				4822DE0825CD25850099A96C /* AppDelegate.swift */,
 				4822DE0A25CD25850099A96C /* SceneDelegate.swift */,
 				4822DE0C25CD25850099A96C /* ViewController.swift */,
@@ -126,6 +133,16 @@
 				4822DE2C25CD25860099A96C /* Info.plist */,
 			);
 			path = SWCarouselViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		4832C7C825CD29F400B4000B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4832C7C925CD2A1000B4000B /* SWCarouselViewController.swift */,
+				4832C7D125CD2A6600B4000B /* PickerView.swift */,
+				4832C7D625CD2A7500B4000B /* PickerView.xib */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4832C7D725CD2A7500B4000B /* PickerView.xib in Resources */,
 				4822DE1525CD25860099A96C /* LaunchScreen.storyboard in Resources */,
 				4822DE1225CD25860099A96C /* Assets.xcassets in Resources */,
 				4822DE1025CD25850099A96C /* Main.storyboard in Resources */,
@@ -258,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4832C7CA25CD2A1000B4000B /* SWCarouselViewController.swift in Sources */,
 				4822DE0D25CD25850099A96C /* ViewController.swift in Sources */,
 				4822DE0925CD25850099A96C /* AppDelegate.swift in Sources */,
+				4832C7D225CD2A6600B4000B /* PickerView.swift in Sources */,
 				4822DE0B25CD25850099A96C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
