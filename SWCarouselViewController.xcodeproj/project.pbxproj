@@ -12,6 +12,7 @@
 		4822DE0D25CD25850099A96C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822DE0C25CD25850099A96C /* ViewController.swift */; };
 		4822DE1025CD25850099A96C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4822DE0E25CD25850099A96C /* Main.storyboard */; };
 		4822DE1225CD25860099A96C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4822DE1125CD25860099A96C /* Assets.xcassets */; };
+		4822DE1525CD25860099A96C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4822DE1325CD25860099A96C /* LaunchScreen.storyboard */; };
 		4822DE2025CD25860099A96C /* SWCarouselViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822DE1F25CD25860099A96C /* SWCarouselViewControllerTests.swift */; };
 		4822DE2B25CD25860099A96C /* SWCarouselViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822DE2A25CD25860099A96C /* SWCarouselViewControllerUITests.swift */; };
 /* End PBXBuildFile section */
